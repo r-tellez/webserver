@@ -6,7 +6,7 @@ resource "google_compute_instance" "web" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "ubuntu-minimal-1804-bionic-v20220613"
     }
   }
 
